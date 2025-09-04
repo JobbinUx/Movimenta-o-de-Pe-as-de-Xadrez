@@ -10,6 +10,8 @@ int main() {
 
     }
 
+    //Divisão das peças
+
     int casasBispo = 5;
     int i = 1;
     printf("\nMovimento do Bispo:\n");
@@ -20,11 +22,13 @@ int main() {
 
     }
 
-    int casasRainha = 8;
+    //Divisão das peças
+
+      int casasRainha = 8;
     int j = 1;
     printf("\nMovimento da Rainha:\n");
     do {
-        
+
     printf("Esquerda\n");
     j++;
     } while (j <= casasRainha);
